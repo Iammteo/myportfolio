@@ -9,32 +9,17 @@ const Nav = () => {
     //     {name:'Contact', Link:"/contact"},
     // ]
     return <div className="h-auto pb-5 bg-gradient-to-r from-custom-darkest to-custom-dark text-white">
-        <div className=" px-[15rem] pt-10 flex justify-between">
+        <div className=" px-[15rem] pt-[5rem] flex justify-between">
            <Logo/>
          
          <ul>
             {
-                // Links.map(Link => 
-                // <li>
-                //     <a href="/">{Link.name} </a>
-
-                    
-                // </li>)
-
-                // Links.map((link) => (
-                //     <li key={link.name}>
-                //       <NavLink to={link.link}>{link.name}</NavLink>
-                //     </li>
-                //   ))
-                <li className="flex justify-end gap-7">
-                    <NavLink to='/'>Home</NavLink>
-                    <NavLink to='/about'>About</NavLink>
-                    <NavLink to='/portfolio'>Portfolio</NavLink>
-                    <NavLink to='/contact'>Contact</NavLink>
+                <li className="flex justify-end gap-7 font-bold">
+                    <NavLink to='/'>HOME</NavLink>
+                    <NavLink to='/about'>ABOUT</NavLink>
+                    <NavLink to='/portfolio'>PORTFOLIO</NavLink>
+                    <NavLink to='/contact'>LET'S CONNECT</NavLink>
                 </li>
-
-
-
             }
          </ul>
 
