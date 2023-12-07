@@ -1,0 +1,38 @@
+    button {
+    width: 100px;
+    height: auto;
+    outline: none;
+    font-size: 15px;
+    border: none;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.5s;
+    width: 100px;
+    background: linear-gradient(70deg, cyan 50%, transparent 50%);
+    color: cyan;
+    background-size: 400%;
+    background-position: right;
+    border: 1px solid white;
+    transition: 1s;
+  }
+
+    button:hover {
+    background-position: left;
+    color: black;
+    background-color: cyan;
+    
+  }
+  
+  @keyframes Slide {
+    0% {
+      transform: translateY(100px);
+      opacity: 0.5;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+
+
+  
