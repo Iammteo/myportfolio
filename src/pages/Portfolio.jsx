@@ -1,6 +1,8 @@
+
+
 const Portfolio = () => {
     return <div className="font-bold text-2xl">
-      Portfolio
+      portfolio
     </div>
   }
   export default Portfolio

@@ -1,6 +1,6 @@
 import { NavLink } from "react-router-dom"
 import Logo from "./Logo"
-
+import './nav.css'
 const Nav = () => {
     // let Links = [
     //     {name:'Home', Link:"/"},
