@@ -1,29 +1,30 @@
-import { Route, Routes } from "react-router-dom"
 import Home from "./pages/Home";
-import SharedLayouts from "./components/SharedLayouts";
 import About from "./pages/About";
 import Portfolio from "./pages/Portfolio";
 import Contact from "./pages/Contact";
+import Nav from "./components/Nav";
+import Skills from "./pages/Skills";
 
 
 function App() {
   
-
   return (
 
-    
- <Routes>
-    <Route path="/" element = {<SharedLayouts/>}>
-         <Route index element = {<Home/>}/>
-         <Route path="/about" element = {<About/>} />
-         <Route path="/portfolio" element = {<Portfolio/>} />
-         <Route path="/contact" element = {<Contact/>} />
-        
-    </Route>
-</Routes> 
+            <>
+            {/* <Nav/> */}
+            <Home/>
+            <About/>
+            <Skills/>
+            <Portfolio/>
+            
+            </>
+
+
+
+  );
 
   
-  );
+
 }
 
 export default App
