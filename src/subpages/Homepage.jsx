@@ -1,18 +1,36 @@
 
-import { Link } from 'react-router-dom';
+import { TypeAnimation } from "react-type-animation";
 import classes from '../subpages/Homepage.module.css';
 
 
 const Homepage = () => {
     return (
    
-        <div className="px-[3rem] md:px-[14rem] pt-20 space-y-8 flex flex-col md:flex-row">
+        <div className="px-[3rem] md:px-[14rem] pt-20 space-y-8 flex flex-col md:flex-row" id='homepage'>
             <div className="space-y-7 md:w-1/2 md:pr-8 text-center md:text-left ">
 
                  <div className='space-y-2'>
                         <h6> Hi there! I'm, </h6>
                         <h1 className="font-bold text-4xl">OLATUYOLE OMOYELE</h1>
-                        <h1 className="font-bold">A SOFTWARE ENGINEER</h1>
+                       
+
+  <TypeAnimation
+        sequence={[
+          "A SOFTWARE ENGINEER",
+          2000,
+          "A PROJECT MANAGER",
+          2000,
+          "A PRODUCT DESIGNER",
+          2000,
+          
+         
+        ]}
+        wrapper="h1"
+        cursor={true}
+        repeat={Infinity}
+        speed={0}
+        className="font-bold text-cyan-300"
+      />
                 </div>
                
                 <div className="space-y-6 font-thin ">

@@ -10,6 +10,9 @@ export default {
         'custom-darkest': '#010101',
         'custom-dark' :'#727272',
      },
+     fontFamily:{
+      'rubik-glitch': ['Rubik Glitch', 'sans-serif'],
+     },
     },
   },
   plugins: [ 
