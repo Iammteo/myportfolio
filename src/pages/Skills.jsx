@@ -10,8 +10,8 @@ const Skills = () => {
                 
 
                 <div className=" shadow-md ">
-                    <h1 className="font-bold text-xl ">WEB & MOBILE ENGINEERING </h1>
-                     <ul className="font-thin space-y-3 mt-3 mb-3 ">
+                    <h1 className="font-bold text-xl p-4 ">WEB & MOBILE ENGINEERING </h1>
+                     <ul className="font-thin space-y-3 mt-3 mb-3">
                         <li>Html & Css</li>
                         <li>JavaScript</li>
                         <li>React & Redux</li>
@@ -26,8 +26,8 @@ const Skills = () => {
                      </ul>
                 </div>
                 <div className=" shadow-md">
-                    <h1 className="font-bold text-xl"> UX DESIGN  </h1>
-                     <ul className="font-thin space-y-3 mt-3 p-3 ">
+                    <h1 className="font-bold text-xl p-3 "> UX DESIGN  </h1>
+                     <ul className="font-thin space-y-3 p-3 ">
                         <li>Ux Research</li>
                         <li>Information Architecture</li>
                         <li>Wireframing</li>
@@ -36,8 +36,8 @@ const Skills = () => {
                      </ul>
                 </div>
                 <div className="shadow-md">
-                    <h1 className="font-bold text-xl  "> UI DESIGN </h1>
-                     <ul className="font-thin space-y-3 mt-3 p-3 ">
+                    <h1 className="font-bold text-xl p-3  "> UI DESIGN </h1>
+                     <ul className="font-thin space-y-3  p-3 ">
                         <li>Visual Design</li>
                         <li>Layout Design</li>
                         <li>Visual Interface</li>

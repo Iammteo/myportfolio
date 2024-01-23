@@ -1,6 +1,8 @@
+
+
 const Logo = () => {
-    return <div className="font-bold text-2xl">
-      LOGO
+    return <div className="font-rubik-glitch text-2xl">
+      Ola
     </div>
   }
   export default Logo

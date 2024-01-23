@@ -1,9 +1,9 @@
 import classes from './portfolio.module.css'
 
 const Portfolio = () => {
-    return <div className=" text-black w-full h-auto mb-5  px-[3rem] md:px-[14rem] gap-5 bg-white" id='portfolio'>
+    return <div className=" text-black w-full h-auto mb-5  px-[3rem] md:px-[14rem] gap-5 bg-white p-10" id='portfolio'>
                 <h1 className ="text-center font-bold font-serif p-7 text-3xl" >PROJECTS </h1> 
-              <section className="flex flex-col md:lg:flex-row gap-10  mt-3">
+              <section className="flex flex-col md:lg:flex-row gap-10  mt-3 ">
                    <div className="" >
                       <h1 className="font-bold mb-3">Estudiez</h1>
                       <p >Estudiez is a comprehensive school management software that automates all the manual,
@@ -14,8 +14,8 @@ const Portfolio = () => {
                       </p>
                        
                       <div className='flex gap-4 '>
-                         <button className={classes.button1}> See Live </button>
-                         <button className='text-cyan-500 font-bold'>Source Code </button>
+                         <button className={classes.button1}> <a href="https://www.adeleke.dev/estudiez/">See Live</a> </button>
+                         <button className='text-cyan-500 font-bold'><a href="https://github.com/Iammteo/estudiez">Source Code</a> </button>
                       </div>
                      
                   </div>
@@ -31,8 +31,8 @@ const Portfolio = () => {
                       </p>
                        
                       <div className='flex gap-4 '>
-                         <button className={classes.button1}> See Live </button>
-                         <button className='text-cyan-500 font-bold'>Source Code </button>
+                         <button className={classes.button1}> <a href="https://booksapp-9s9m.onrender.com/">See Live</a></button>
+                         <button className='text-cyan-500 font-bold'><a href="https://github.com/Iammteo/bookapp">Source Code</a> </button>
                       </div>
                      
                   </div>
@@ -49,8 +49,8 @@ const Portfolio = () => {
                       </p>
                        
                       <div className='flex gap-4 '>
-                         <button className={classes.button1}> See Live </button>
-                         <button className='text-cyan-500 font-bold'>Source Code </button>
+                         <button className={classes.button1}><a href="https://searchme-vqvx.onrender.com/">See Live </a> </button>
+                         <button className='text-cyan-500 font-bold'><a href="https://github.com/Iammteo/search-api">Source Code</a> </button>
                       </div>
                      
                   </div>
@@ -67,8 +67,8 @@ const Portfolio = () => {
                         </p>
                         
                         <div className='flex gap-4 '>
-                            <button className={classes.button1}> See Live </button>
-                            <button className='text-cyan-500 font-bold'>Source Code </button>
+                            <button className={classes.button1}> <a href="https://animal-clicks.onrender.com/">See Live</a>  </button>
+                            <button className='text-cyan-500 font-bold'><a href="https://github.com/Iammteo/animal-app">Source Code </a></button>
                         </div>
                   </div>
                   <div>
