@@ -21,12 +21,12 @@ const Nav = () => {
     return (
     
     <div className =" w-full h-auto pb-5 bg-gradient-to-r from-custom-darkest
-        to-custom-dark text-white lg:px-[14rem] lg:py-[6rem] px-12 py-9 flex justify-between  ">
+        to-custom-dark text-white lg:px-[14rem] lg:py-[6rem] px-12 py-9 flex justify-between">
         
-        <div><Logo /> </div>
+        <div className=""><Logo /> </div>
    
   
-        <ul className="md:flex gap-7 font-bold hidden ">
+         <ul className="md:flex gap-7 font-bold hidden ">
           <li><a href="/"  onClick={()=> setActiveNav('#home')} className={ activeNav === '#home' ? 'active' : '' } >HOME</a></li>
           <li><a href="/#about">ABOUT</a></li> 
           <li><a href="/#skills">SKILLS</a></li> 
@@ -37,13 +37,12 @@ const Nav = () => {
         <div className="md:sm:hidden">
               <div onClick={toggleHam} >
                 {isHamOpen ? <MdClose className ='text-3xl ' /> : < GrProjects className="text-3xl "/>}
-                 
 
               </div>
         </div>
          
-         {isHamOpen && (
-            <div className="bg-black w-full h-[14rem] rounded-t-3xl fixed bottom-0 left-0" >
+          {isHamOpen && (
+<div className="bg-black w-full h-[14rem] rounded-t-3xl fixed bottom-0 left-0" >
 
 
 
@@ -78,6 +77,8 @@ const Nav = () => {
                 
                 </div>
          )}
+
+             
         
         </div>
   

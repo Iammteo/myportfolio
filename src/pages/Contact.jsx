@@ -1,6 +1,7 @@
 
 import { IoShieldCheckmark } from "react-icons/io5";
 import { useForm, ValidationError } from '@formspree/react';
+import Socials from "../components/Socials";
 
 const Contact = () => {
 
@@ -23,11 +24,13 @@ const Contact = () => {
   }
 
   return <div className="bg-black text-white flex justify-center  " id="contact">
-      
+        
+       
             
        <form onSubmit={handleSubmit}>
        <h1 className="font-bold  text-2xl p-5">Feel free to hit me up, I'm looking forward to hearing from you</h1>
-       
+               
+       <div><Socials/></div>
    
                 <div  className='p-3'>
                         <label htmlFor="name">
@@ -51,7 +54,7 @@ const Contact = () => {
       
                 <div className='p-3'>
                       <label htmlFor="email">
-                        Email Address
+                        Email Address:
                       </label>
                       <input
                         className ="appearance-none p-3 block w-full bg-transparent text-white border
@@ -70,7 +73,7 @@ const Contact = () => {
                 </div>
 
                 <div className='p-3'>
-                      <label htmlFor="message">Message</label>
+                      <label htmlFor="message">Message:</label>
                       <textarea
                         id="message"
                         name="message"
