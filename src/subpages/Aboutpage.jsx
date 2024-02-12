@@ -6,7 +6,7 @@ const Aboutpage = () => {
         <h1 className="font-bold  text-center text-2xl font-serif ">Unveiling My Creative Journey</h1>
 
          <p className="mt-3">
-          Hey there! I'm Olatuyole Omoyele, but you can call me Ola 
+          Hey there! I'm Olatuyole Omoyele, but you can call me Ola,
           I'm a seasoned Software Engineer and Project Manager 
           seamlessly blending technical expertise with a passion for effective project delivery.
           In my professional journey, I've not only mastered the intricacies of software engineering but have also assumed leadership roles in project management. 
@@ -46,7 +46,7 @@ const Aboutpage = () => {
          
          </p>
 
-         <button className="bg-black px-5 py-3 text-white text-sm font-semibold mt-6">View Resume </button>
+         <button className="bg-black px-5 py-3 text-white text-sm font-semibold mt-6"><a href="https://docs.google.com/document/d/1Nh8kWIf84ikVAVNo3Xw97Ub8rMlTtFwzrkfJeP7OW18/edit?usp=drive_link">View Resume</a>  </button>
       </div>
 
       

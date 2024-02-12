@@ -20,8 +20,6 @@ const Homepage = () => {
           2000,
           "A PROJECT MANAGER",
           2000,
-          "A PRODUCT DESIGNER",
-          2000,
           
          
         ]}
@@ -35,8 +33,8 @@ const Homepage = () => {
                
                 <div className="space-y-6 font-thin ">
                     <p className='xl:text-lg lg:text-lg md:text-sm'>
-                        Passionate and detail-oriented, I am obsessed with designing secure, scalable,
-                        intuitive, and aesthetically pleasing web applications.
+                        Passionate and detail-oriented, I am obsessed with designing,scalable,
+                        intuitive and aesthetically pleasing web applications.
                     </p>
 
                     <button >

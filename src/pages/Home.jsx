@@ -18,7 +18,7 @@ const Home = () => {
   },[])
   setTimeout(() => {
     setIsLoading(true);
-  }, 2000);
+  }, 3000);
     return (
       <> {isLoading ?
       <div >
