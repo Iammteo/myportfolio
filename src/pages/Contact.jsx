@@ -23,12 +23,12 @@ const Contact = () => {
       
   }
 
-  return <div className="bg-black text-white flex justify-center  " id="contact">
+  return <div className="bg-black text-white flex justify-center p-10 " id="contact">
         
        
             
        <form onSubmit={handleSubmit}>
-       <h1 className="font-bold  text-2xl p-5">Feel free to hit me up, I'm looking forward to hearing from you</h1>
+       <h1 className="font-bold  text-2xl p-12">Feel free to hit me up, I'm looking forward to hearing from you</h1>
                
        <div><Socials/></div>
    
