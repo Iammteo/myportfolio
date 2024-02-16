@@ -11,7 +11,7 @@ const Totop = () => {
     const handleScroll = () => {
       const scrollY = window.scrollY;
 
-      if (scrollY > 300) {
+      if (scrollY > 3000) {
         setIsVisible(true);
       } else {
         setIsVisible(false);

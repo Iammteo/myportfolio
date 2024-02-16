@@ -23,7 +23,7 @@ const Nav = () => {
     <div className =" w-full h-auto pb-5 bg-gradient-to-r from-custom-darkest
         to-custom-dark text-white lg:px-[14rem] lg:py-[6rem] px-12 py-9 flex justify-between">
         
-        <div className=""><Logo /> </div>
+        <div className="md:sm:flex hidden"><Logo /> </div>
    
   
          <ul className="md:flex gap-7 font-bold hidden ">
@@ -34,15 +34,16 @@ const Nav = () => {
           <li><a href='/#contact'>LET'S CONNECT</a></li>
         </ul>
 
-        <div className="md:sm:hidden">
-              <div onClick={toggleHam} >
-                {isHamOpen ? <MdClose className ='text-3xl ' /> : < GrProjects className="text-3xl "/>}
+         <div className="md:sm:hidden  bg-cyan-500 w-full h-auto p-3 fixed bottom-0 left-0 ">
+              <div onClick={toggleHam} className="flex items-center justify-between" >
+              <Logo />
+                {isHamOpen ? <MdClose className ='text-xl'/> : < GrProjects className="text-xl "/>}
 
               </div>
-        </div>
+        </div> 
          
           {isHamOpen && (
-<div className="bg-black w-full h-[14rem] rounded-t-3xl fixed bottom-0 left-0" >
+          <div className="bg-black w-full h-[14rem] rounded-t-3xl fixed bottom-11 left-0" >
 
 
 
