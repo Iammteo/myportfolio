@@ -93,7 +93,7 @@ const Contact = () => {
 
                 <div  className="p-3 ">
                   <button type="submit" disabled={state.submitting}
-                    className="bg-cyan-500 p-2 w-[6rem] text-white">
+                    className="bg-cyan-500 p-2  w-[6rem] text-white">
                     Send
                   </button>
                 </div>

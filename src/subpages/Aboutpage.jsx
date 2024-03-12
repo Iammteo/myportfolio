@@ -3,7 +3,7 @@ const Aboutpage = () => {
     return <div className=" text-black w-full h-full bg-white px-[3rem] md:px-[14rem] pb-5 " id="about" >
       <div className="mt-14">
 
-        <h1 className="font-bold  text-center text-2xl font-serif ">Unveiling My Creative Journey</h1>
+        <h1 className="font-bold  text-center text-2xl font-serif "> ABOUT </h1>
 
          
          <p className="mt-9 font-serif text-lg">
