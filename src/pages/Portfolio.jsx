@@ -1,7 +1,7 @@
 import classes from './portfolio.module.css'
 
 const Portfolio = () => {
-    return <div className=" text-black w-full h-auto mb-5  px-[3rem] md:px-[14rem] gap-5 bg-white p-10" id='portfolio'>
+    return <div className=" text-black w-full h-auto mb-5  px-[3rem] md:px-[14rem] mt-14 gap-5 bg-white p-10" id='portfolio'>
                 <h1 className ="text-center font-bold font-serif p-7 text-3xl" >PROJECTS </h1> 
               <section className="flex flex-col md:lg:flex-row gap-10  mt-3 ">
                    <div className="" >
@@ -13,9 +13,9 @@ const Portfolio = () => {
                         and Firebase for backend.
                       </p>
                        
-                      <div className='flex gap-4 '>
+                      <div className='flex  gap-4 '>
                          <button className={classes.button1}> <a href="https://www.adeleke.dev/estudiez/">See Live</a> </button>
-                         <button className='text-cyan-500 font-bold'><a href="https://github.com/Iammteo/estudiez">Source Code</a> </button>
+                         <button className='text-cyan-500 font-bold pt-3'><a href="https://github.com/Iammteo/estudiez">Source Code</a> </button>
                       </div>
                      
                   </div>
@@ -32,7 +32,7 @@ const Portfolio = () => {
                        
                       <div className='flex gap-4 '>
                          <button className={classes.button1}> <a href="https://booksapp-9s9m.onrender.com/">See Live</a></button>
-                         <button className='text-cyan-500 font-bold'><a href="https://github.com/Iammteo/bookapp">Source Code</a> </button>
+                         <button className='text-cyan-500 font-bold pt-3'><a href="https://github.com/Iammteo/bookapp">Source Code</a> </button>
                       </div>
                      
                   </div>
@@ -50,7 +50,7 @@ const Portfolio = () => {
                        
                       <div className='flex gap-4 '>
                          <button className={classes.button1}><a href="https://searchme-vqvx.onrender.com/">See Live </a> </button>
-                         <button className='text-cyan-500 font-bold'><a href="https://github.com/Iammteo/search-api">Source Code</a> </button>
+                         <button className='text-cyan-500 font-bold pt-3'><a href="https://github.com/Iammteo/search-api">Source Code</a> </button>
                       </div>
                      
                   </div>
@@ -68,7 +68,7 @@ const Portfolio = () => {
                         
                         <div className='flex gap-4 '>
                             <button className={classes.button1}> <a href="https://animal-clicks.onrender.com/">See Live</a>  </button>
-                            <button className='text-cyan-500 font-bold'><a href="https://github.com/Iammteo/animal-app">Source Code </a></button>
+                            <button className='text-cyan-500 font-bold pt-3'><a href="https://github.com/Iammteo/animal-app">Source Code </a></button>
                         </div>
                   </div>
                   <div>

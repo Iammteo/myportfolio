@@ -24,7 +24,7 @@ const Home = () => {
       <div >
         <>
         <Nav/>
-         <div className=" w-full h-[30rem] bg-gradient-to-r from-custom-darkest to-custom-dark text-white">
+         <div className=" w-full h-auto bg-gradient-to-r from-custom-darkest to-custom-dark text-white">
          <Homepage/> </div>
          <Aboutpage/>
          <Skills/>
